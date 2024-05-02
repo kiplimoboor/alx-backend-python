@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Simple int and float addition module"""
 
-from typing import Union
+from typing import List, Union
 
 
-def sum_mixed_list(mxd_list: Union[int, float]) -> float:
+def sum_mixed_list(mxd_list: List[Union[int, float]]) -> float:
     """
     Adds a list of ints and floats
 
